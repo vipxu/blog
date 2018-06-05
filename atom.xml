@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://vipxu.github.io/"/>
-  <updated>2018-06-05T08:12:23.173Z</updated>
+  <updated>2018-06-05T09:34:01.219Z</updated>
   <id>https://vipxu.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://vipxu.github.io/2018/06/05/%E5%A4%A9%E9%9D%92%E8%89%B2%E7%AD%89%E7%83%9F%E9%9B%A8/"/>
     <id>https://vipxu.github.io/2018/06/05/天青色等烟雨/</id>
     <published>2018-06-05T07:46:01.000Z</published>
-    <updated>2018-06-05T08:12:23.173Z</updated>
+    <updated>2018-06-05T09:34:01.219Z</updated>
     
     <content type="html"><![CDATA[<p>信步江南中的你，一曲东风破，一首美人歌。人生，只是一个过客，来的匆匆，去的匆匆，没有想过为谁而停泊。当时间定格，你的前世，你的今生，该是在莺飞草长里过了千年。</p><p>曲折的小巷，芭蕉骤雨，敲打着青石板，回音空灵。惹了门环上的斑驳铜绿。朱漆的大门，在岁月的侵蚀下，闪着隐隐的血色。你在轩窗里，寥寥数笔，勾勒出几朵牡丹，含苞，待放。细想着初见时的她，佳人初妆，俏比花娇艳。晕开的月色，看不透结局，顺带了青花澄澈。晚风轻扬,飘荡白衣，翻飞思绪。遥记招摇酒旗.杏花春雨，桃红柳带绿。酒不醉而自伤情，琴无弦而有音。</p><p>哪个落魄女子，扶按银筝，轻敲澶板，一曲无稽散漫，只是声调凄婉。柳，失了轻烟，落红飘谢。念念不忘的那个人，早已消失在茫茫人海，徒留着耳畔，花香一缕。你依然描青花，绘锦鲤，心里惦着的，确非宋体隶书的飘逸。永远的等待，也是一种结局，没有开始，就没有结束。满目的心伤，独自凄凉,独自哀伤。窗外杨花点点，朝暮恰似离人泪。江南的缠绵悱恻，到了人的心底，纠结不清。想是本来就没有承诺，谁也不用负担什么。</p><p>再见时，又是一年的夭桃盛，其华灼灼，云中可蕊多。春荣有迹，秋谢无影。而她，已是往年花中的绚丽一枝，上落碧穷，下黄泉，生生相错。恍惚中。子夜迷歌，看不尽的忘川河。商时的风，唐时的雨，宋朝的墨迹，染遍了疏离。你凝视着青灯古壁，将微笑隐在树的枝末上，任夜雨霖铃，时日犹长。人生若只如初见，怕是当时只道是寻常。浮世寻常的爱恋，选在了错误的时间，地点，没有错过一世的繁华，却错过了她。心底的荒芜，蔓延上三月的草长，亦是枉然。<br>冉冉澶香透过窗，终少了歌舞红袖，锦瑟流光。你修长的指间，拂过釉色苍茫。青花瓷如玉，欲坠下泪来，在青色的天空下，抖落一地的轻颤。宣纸上的画影离乱，花开欲然，渐渐模糊了，如初亮的黎明，迅速抽空了焦距。<br>梦，埋进江南的烟雨。你残破的记忆，该是错过的人，追忆的人，最好的叹息。</p>]]></content>
     
@@ -38,7 +38,57 @@
       <category term="随笔" scheme="https://vipxu.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="html" scheme="https://vipxu.github.io/tags/html/"/>
+      <category term="随笔" scheme="https://vipxu.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Flex的使用</title>
+    <link href="https://vipxu.github.io/2017/06/05/flex%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://vipxu.github.io/2017/06/05/flex的使用/</id>
+    <published>2017-06-05T07:46:01.000Z</published>
+    <updated>2018-06-05T09:47:22.852Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="flex布局"><a href="#flex布局" class="headerlink" title="flex布局"></a>flex布局</h2><h4 id="1-flex-direction-决定主轴的方向（即项目的排列方向）。"><a href="#1-flex-direction-决定主轴的方向（即项目的排列方向）。" class="headerlink" title="1. flex-direction:决定主轴的方向（即项目的排列方向）。"></a>1. flex-direction:决定主轴的方向（即项目的排列方向）。</h4><ul><li>row（默认值）：主轴为水平方向，起点在左端。</li><li>row-reverse：主轴为水平方向，起点在右端。</li><li>column：主轴为垂直方向，起点在上沿。</li><li>column-reverse：主轴为垂直方向，起点在下沿</li></ul><h4 id="2-flex-wrap-排序方式"><a href="#2-flex-wrap-排序方式" class="headerlink" title="2. flex-wrap:排序方式"></a>2. flex-wrap:排序方式</h4><ul><li>nowrap（默认）：不换行。</li><li>wrap 换行，第一行在上方。</li><li>wrap-reverse：换行，第一行在下方。</li></ul><h4 id="3-flex-flow-flex-direction-flex-wrap-默认row-nowrap"><a href="#3-flex-flow-flex-direction-flex-wrap-默认row-nowrap" class="headerlink" title="3. flex-flow:flex-direction||flex-wrap 默认row nowrap"></a>3. flex-flow:flex-direction||flex-wrap 默认row nowrap</h4><h4 id="4-justify-content-定义了项目在主轴上的对齐方式。"><a href="#4-justify-content-定义了项目在主轴上的对齐方式。" class="headerlink" title="4. justify-content:定义了项目在主轴上的对齐方式。"></a>4. justify-content:定义了项目在主轴上的对齐方式。</h4><ul><li>flex-start（默认值）：左对齐</li><li>flex-end：右对齐</li><li>center： 居中</li><li>space-between：两端对齐，项目之间的间隔都相等。</li><li>space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。</li></ul><h4 id="5-align-items属性定义项目在交叉轴上如何对齐。"><a href="#5-align-items属性定义项目在交叉轴上如何对齐。" class="headerlink" title="5. align-items属性定义项目在交叉轴上如何对齐。"></a>5. align-items属性定义项目在交叉轴上如何对齐。</h4><ul><li>flex-start：交叉轴的起点对齐。</li><li>flex-end：交叉轴的终点对齐。</li><li>center：交叉轴的中点对齐。</li><li>baseline: 项目的第一行文字的基线对齐。</li><li>stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。</li></ul><h4 id="6-align-content定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。"><a href="#6-align-content定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。" class="headerlink" title="6. align-content定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。"></a>6. align-content定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</h4><ul><li>flex-start：与交叉轴的起点对齐。</li><li>flex-end：与交叉轴的终点对齐。</li><li>center：与交叉轴的中点对齐。</li><li>space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。</li><li>space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</li><li>stretch（默认值）：轴线占满整个交叉轴。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;flex布局&quot;&gt;&lt;a href=&quot;#flex布局&quot; class=&quot;headerlink&quot; title=&quot;flex布局&quot;&gt;&lt;/a&gt;flex布局&lt;/h2&gt;&lt;h4 id=&quot;1-flex-direction-决定主轴的方向（即项目的排列方向）。&quot;&gt;&lt;a href=&quot;#1-
+      
+    
+    </summary>
+    
+      <category term="css总结" scheme="https://vipxu.github.io/categories/css%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="css" scheme="https://vipxu.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>红尘不坠，回望彼岸风景</title>
+    <link href="https://vipxu.github.io/2016/10/05/%E7%BA%A2%E5%B0%98%E4%B8%8D%E5%9D%A0%EF%BC%8C%E5%9B%9E%E6%9C%9B%E5%BD%BC%E5%B2%B8%E9%A3%8E%E6%99%AF/"/>
+    <id>https://vipxu.github.io/2016/10/05/红尘不坠，回望彼岸风景/</id>
+    <published>2016-10-05T09:32:27.000Z</published>
+    <updated>2018-06-05T09:33:56.324Z</updated>
+    
+    <content type="html"><![CDATA[<p>中秋午后的那场雨，来得并不突然，也许是在之前的几天，就开始酝酿了吧。<br>在每一个秋天，我总是期待着一场大雨，淋漓尽致地大雨，可以让人遗忘曾经的过往。 静夜独处时，情绪低落时，我时常问自己：人，活着是为了什么？又为什么而活着？是为了让我去感受我不曾感受的快乐，感受我不曾体会的悲伤，不辜负平淡的生活，平凡的生命？让我去经受生命中磨砺，让我能够等待下一个季节的轮回？也许我是个太容易被感动的人，我总是一千次一万次的告诉自己，我可以用一个微笑的距离远离一个季节的轮回！岁月不留痕，就让它留下一些回忆，浅浅的，淡淡的，是一种遗憾！</p><p>秋夜的雨飘落，淋湿了路面，昏暗的灯光下，思绪在蔓延。曾经的人、曾经的事，在幽幽的黑暗中向你袭来。岁月的脚步让我的心情温润如水，也许有岁月的磨砺下，才懂得了情感的珍藏！云卷云舒，花开花落。记住了一些人、一些事，在我的世界了划过了一道美丽的音符。<br>过往的岁月，因为走过，所以没有了起点；因为懂得，所以学会了珍惜；因为有了牵挂，所以不会轻易忘记；因为有了感动，所以学会了怀念！平凡的你我，在平淡的生活中，又在期待些什么？<br>红尘回望，陌生中有一种熟悉的味道，我突然会想起幸福。也许就是还有那么一个人，站在一个遥远的地方，憧憬着。在你心中泛起一丝失落的时候，他也刚好在这样的夜里想起你，想你在这样的夜晚是否已经安然入睡。<br>雨后的天空，干净的街道，微风扑面而来，那丝清凉让人不禁打了个冷颤。走在路上，可以一步一步的丈量每一个地点的距离，可是，却丈量不出心与心之间的距离，也丈量不出坦然与逃避之间的距离。散发出橘色的光晕的路灯下，夜清凉，树朦胧，影斑驳，人稀少，倚着路边的栏杆，遥望远处的风景，有种心醉的美丽，走近了，才看清了，不过是每天都可以看见得再普通不过的路灯，也许，很多风景，永远只适合隔岸远望，由距离的遥远而变得生动。<br>“不识庐山真面目，只缘身在此山中”，远远的观望，伸手就可以触碰，原来有如此大的不同。远远的欣赏，得到的是一种淡然的快乐，是放得下得超脱；欲望的掠取，得到的是一种真实的感知，是贪婪的满足，是快乐后的失落！<br>最美的风景总是在河边，风景似乎有了水的装点才会显得有灵气，缺了水即使再美的景，也是欠缺的。对于我来讲，我喜欢有水的城市，我爱水胜过爱山，有了水的城市，多了灵动，多了停留，一个城市，会因为有了水的流动，而焕发出勃勃生机。也许，一场大雨，可以让浮躁的心渐渐平静，生活本来就是这样，需要在平凡中偶尔停留片刻，调整一下杂乱的步伐；一场大雨，清晰了熟悉的风景和凌乱的思绪！<br>也许，生活中有很多东西，真的只适合远远的欣赏，却不适合真实的得到，经历过岁月的沧桑，我们才能够明白得不到的永远是最好的，是因为是装在心里。<br>也许，拥有一段友情远比拥有一段感情要真实许多，温暖许多，也许是相望的距离，是珍藏心中的那些记忆，让你拥有更多平实的快乐！把握好眼前得到的，珍惜你能够拥有的，也许，生活就会平静许多，幸福许多！<br>一场金秋雨，让彼岸风景渐远，这雨，清澈了雨后的街道，也让人遗忘了关于这个季节所有的记忆。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;中秋午后的那场雨，来得并不突然，也许是在之前的几天，就开始酝酿了吧。&lt;br&gt;在每一个秋天，我总是期待着一场大雨，淋漓尽致地大雨，可以让人遗忘曾经的过往。 静夜独处时，情绪低落时，我时常问自己：人，活着是为了什么？又为什么而活着？是为了让我去感受我不曾感受的快乐，感受我不曾体
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://vipxu.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://vipxu.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
